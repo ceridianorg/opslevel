@@ -34,5 +34,7 @@ service:
     url: https://app.datadog.com/your_dashboard?env=staging
     environment: Staging
   dependencies:
+    - alias: DFID
+      notes: provides authentication services in front of Document Mananagement
 
   alert_sources:
