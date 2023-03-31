@@ -4,7 +4,7 @@ service:
   lifecycle: generally_available
   tier: tier_1
   product: Dayforce
-  owner: order_management_team
+  owner: Thunderzord
   language: C#
   framework: .Net Core
   description: Provides authorization capability to all microservices
