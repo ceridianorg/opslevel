@@ -36,5 +36,7 @@ service:
   dependencies:
     - alias: DFID
       notes: provides authentication services in front of Document Mananagement
+    - alias: virus_scanner
+      notes: Scans the viruses of the files
 
   alert_sources:
