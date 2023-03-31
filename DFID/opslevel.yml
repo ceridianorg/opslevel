@@ -5,15 +5,16 @@ service:
   tier: tier_1
   product: Dayforce
   owner: order_management_team
-  language: Ruby
-  framework: Rails
-  description: Allows users to add/remove products in their virtual shopping carts
+  language: C#
+  framework: .Net Core
+  description: Provides authorization capability to all microservices
     prior to placing an order.
   aliases:
-  - cart
+  - Dayforce ID
+  - OAuth
   tags:
   - key: db
-    value: mysql
+    value: SQLServer
   - key: kafka-topic
     value: cart-additions
   repositories:
