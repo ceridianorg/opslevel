@@ -17,14 +17,6 @@ service:
   - key: kafka-topic
     value: cart-additions
   repositories:
-  - name: DunderMifflin/shopping_cart
-    path: "/"
-    provider: github
-    display_name: Cart Service Code
-  - name: DunderMifflin/TerraformRepo
-    path: "/production/shopping_cart"
-    provider: bitbucket
-    display_name: Terraform Config
   tools:
   - name: Confluence
     category: runbooks
