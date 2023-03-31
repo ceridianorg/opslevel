@@ -1,0 +1,38 @@
+version: 1
+service:
+  name: Document Management
+  lifecycle: generally_available
+  tier: tier_1
+  product: Dayforce
+  owner: Megazord Team
+  language: C#
+  framework: .Net Core
+  description: Allows upload/download of amazing documents
+  aliases:
+  - DMM2.0
+  - DocMgmt
+  tags:
+  - key: db
+    value: SQLServer
+  - key: kafka-topic
+    value: cart-additions
+  repositories:
+  tools:
+  - name: Confluence
+    category: runbooks
+    url: http://company.atlassian.com/confluence/runbooks
+  - name: PagerDuty
+    category: incidents
+    url: https://your_account.pagerduty.com/services/PH99999
+    environment: Production
+  - name: Datadog
+    category: metrics
+    url: https://app.datadog.com/your_dashboard?env=prod
+    environment: Production
+  - name: Datadog
+    category: metrics
+    url: https://app.datadog.com/your_dashboard?env=staging
+    environment: Staging
+  dependencies:
+
+  alert_sources:
