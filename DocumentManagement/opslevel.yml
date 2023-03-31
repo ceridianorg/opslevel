@@ -4,7 +4,7 @@ service:
   lifecycle: generally_available
   tier: tier_1
   product: Dayforce
-  owner: Megazord Team
+  owner: megazord_team
   language: C#
   framework: .Net Core
   description: Allows upload/download of amazing documents
