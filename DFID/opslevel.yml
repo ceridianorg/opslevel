@@ -21,7 +21,7 @@ service:
   tools:
   - name: Confluence
     category: runbooks
-    url: http://company.atlassian.com/confluence/runbooks
+    url: https://ceridian.atlassian.net/wiki/spaces/CHIP/pages/130678944/DFID+-+Onboarding
   - name: PagerDuty
     category: incidents
     url: https://your_account.pagerduty.com/services/PH99999
